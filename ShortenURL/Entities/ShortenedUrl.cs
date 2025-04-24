@@ -9,7 +9,7 @@ namespace ShortenURL.Entities
         public string ShortUrl { get; set; } = string.Empty;
 
         public DateTime CreatedOnUtc { get; set; }
-        
 
+        public int MyProperty { get; set; }
     }
 }
